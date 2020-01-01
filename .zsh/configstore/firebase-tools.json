@@ -1,0 +1,39 @@
+{
+	"analytics-uuid": "c26cc7e8-0304-4bc1-8e3e-9610c93a5757",
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1538642820355,
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "103018118081660231477",
+		"email": "baevra@gmail.com",
+		"email_verified": true,
+		"at_hash": "1feMXY3X024B8QWmqmdcOQ",
+		"iat": 1538642832,
+		"exp": 1538646432
+	},
+	"tokens": {
+		"expires_at": 1538717715550,
+		"refresh_token": "1/lBKesovzOzyYjJbr_kZi1hcdSwQBdGVtb_vYsEVszMCy9ywBC8LUSw7W3MeMybcT",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.GlwtBlV7NOXOYYnQ61ybdASPlQ5UGbxrUvx6HuBWzMd0QFw006ydKJueIJRueI5z6fDpBKbHha59WZn6-VmbTKtCbde2HPLdoVuqLkp9Jz7JM8UkqTIzUuNdo6fc8Q",
+		"expires_in": 3600,
+		"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY0MWZjMDUzZWY2OGExNDdkNmUwODQ1YWI2OWI5ZDYxYWE0YmM3ODkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAzMDE4MTE4MDgxNjYwMjMxNDc3IiwiZW1haWwiOiJiYWV2cmFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJyQXl5cWZldExKWXhWN0RzVjR3UzNRIiwiaWF0IjoxNTM4NzE0MTE1LCJleHAiOjE1Mzg3MTc3MTV9.oBPfLtMMM31JwlINo6snz9gLTEoAsrNap9busFQTNu3JqeZVjw_juC23AOlSB-JjfsmHv_yn__n7cPYVmrsbZ8oV3JmNXvxOE5LjMVX7Gmc113YZqM7AKDu9aoBo9k29o4dFJowcO2abG8i2KC5VAALUaLa9FN1nnmJ0wsKeX45X9kTGxvsKiWHawRVQT575XMc7cSSfI55G41TxMYID5PRTbHWmH9DQa7sNRXLQmv1IB2P--ORamJ8C1BU3ZahLkVyZY8hkx26Te9Ev6PnN-zsbLy1KQBSGNPMCycTcLWOdfyExBMgnfAy6AOhjjSa3JXTV5gyV6YN0ZBlY5SajEw"
+	},
+	"activeProjects": {
+		"/Users/baevra/Backend/fitamin": "fitamin-8e6e4"
+	},
+	"lastError": 1539759049328
+}

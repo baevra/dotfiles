@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1567130112994,
+	"update": {
+		"latest": "3.1.21",
+		"current": "3.1.0",
+		"type": "patch",
+		"name": "npm-check-updates"
+	}
+}

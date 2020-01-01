@@ -1,0 +1,32 @@
+{
+	"projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld": {
+		"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+		"timeout": {
+			"seconds": 540
+		},
+		"entryPoint": "helloWorld",
+		"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35732zc5kYvwskPoI.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+		"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35732zc5kYvwskPoI.zip",
+		"httpsTrigger": {
+			"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+		},
+		"status": "READY",
+		"latestOperation": "operations/70c392b9-2269-4b96-a1d4-510ecc8114b9",
+		"availableMemoryMb": 8589
+	},
+	"projects/fitamin-8e6e4/locations/us-central1/functions/main": {
+		"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+		"timeout": {
+			"seconds": 540
+		},
+		"entryPoint": "main",
+		"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-49120YPfZ0Xvfbbb9.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+		"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-49120YPfZ0Xvfbbb9.zip",
+		"httpsTrigger": {
+			"url": "http://localhost:5000/fitamin-8e6e4/us-central1/main"
+		},
+		"status": "READY",
+		"latestOperation": "operations/727c98e4-21ef-4ae6-a7b0-cedff55101bf",
+		"availableMemoryMb": 8589
+	}
+}

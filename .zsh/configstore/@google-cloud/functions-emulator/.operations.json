@@ -1,0 +1,884 @@
+{
+	"operations/eb3f061e-487a-4b8e-9989-c8082c8c49fe": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-31236u0mAY3lfIvT0.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-31236u0mAY3lfIvT0.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/eb3f061e-487a-4b8e-9989-c8082c8c49fe",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-31236u0mAY3lfIvT0.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-31236u0mAY3lfIvT0.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/eb3f061e-487a-4b8e-9989-c8082c8c49fe",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/2d9d8f68-4de6-4e9d-a052-89f2edd4f994": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/2d9d8f68-4de6-4e9d-a052-89f2edd4f994",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/3a03b424-d6e7-409e-8e3d-15dca72f813c": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-31967zVntrx0TSTS9.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-31967zVntrx0TSTS9.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/3a03b424-d6e7-409e-8e3d-15dca72f813c",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-31967zVntrx0TSTS9.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-31967zVntrx0TSTS9.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/3a03b424-d6e7-409e-8e3d-15dca72f813c",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/bfb56a38-2056-4cd4-ae0a-673c87ad2a18": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/bfb56a38-2056-4cd4-ae0a-673c87ad2a18",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/da72a4bb-7ade-480c-82ba-bae4be47468b": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-32156tnJcF1bXWaq6.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-32156tnJcF1bXWaq6.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/da72a4bb-7ade-480c-82ba-bae4be47468b",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-32156tnJcF1bXWaq6.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-32156tnJcF1bXWaq6.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/da72a4bb-7ade-480c-82ba-bae4be47468b",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/d083d4a0-e56a-4895-99fb-35b362efa186": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/d083d4a0-e56a-4895-99fb-35b362efa186",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/2488f83a-0c6c-40b3-b594-6fe629d43e31": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-32777kCR2YzYkxIMT.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-32777kCR2YzYkxIMT.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/2488f83a-0c6c-40b3-b594-6fe629d43e31",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-32777kCR2YzYkxIMT.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-32777kCR2YzYkxIMT.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/2488f83a-0c6c-40b3-b594-6fe629d43e31",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/4f7b555c-57b8-4f13-8bf0-dc12f292ec32": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/4f7b555c-57b8-4f13-8bf0-dc12f292ec32",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/c6610703-98d1-4b0f-930c-a13e65be53a6": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-33189QLX6IfKqGThF.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-33189QLX6IfKqGThF.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/c6610703-98d1-4b0f-930c-a13e65be53a6",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-33189QLX6IfKqGThF.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-33189QLX6IfKqGThF.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/c6610703-98d1-4b0f-930c-a13e65be53a6",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/fadc0f13-6715-4c9e-8ea9-33571138b90f": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/fadc0f13-6715-4c9e-8ea9-33571138b90f",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/e00635ce-cb00-4059-b4b8-ab70b40bd1d7": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-33537C5f153ACStR8.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-33537C5f153ACStR8.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/e00635ce-cb00-4059-b4b8-ab70b40bd1d7",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-33537C5f153ACStR8.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-33537C5f153ACStR8.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/e00635ce-cb00-4059-b4b8-ab70b40bd1d7",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/a41d02a8-a11f-4e5c-a7f8-103deb6169ba": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/a41d02a8-a11f-4e5c-a7f8-103deb6169ba",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/d62f4e81-a5ce-45fc-9da6-9efe6e12cc3a": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-33749BThClc568B20.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-33749BThClc568B20.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/d62f4e81-a5ce-45fc-9da6-9efe6e12cc3a",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-33749BThClc568B20.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-33749BThClc568B20.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/d62f4e81-a5ce-45fc-9da6-9efe6e12cc3a",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/e81448d9-503d-4656-9f5f-0c00e170aa4f": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/e81448d9-503d-4656-9f5f-0c00e170aa4f",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/68339196-5370-4eff-8571-c2c40fdde8fc": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35513C93CCLm8Xjmb.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35513C93CCLm8Xjmb.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/68339196-5370-4eff-8571-c2c40fdde8fc",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35513C93CCLm8Xjmb.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35513C93CCLm8Xjmb.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/68339196-5370-4eff-8571-c2c40fdde8fc",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/f1739e1a-6131-4e06-b155-2cab44d11c8c": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld"
+					}
+				}
+			}
+		},
+		"name": "operations/f1739e1a-6131-4e06-b155-2cab44d11c8c",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/70c392b9-2269-4b96-a1d4-510ecc8114b9": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "helloWorld",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35732zc5kYvwskPoI.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35732zc5kYvwskPoI.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/70c392b9-2269-4b96-a1d4-510ecc8114b9",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/helloWorld",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "helloWorld",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35732zc5kYvwskPoI.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35732zc5kYvwskPoI.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/helloWorld"
+				},
+				"status": "READY",
+				"latestOperation": "operations/70c392b9-2269-4b96-a1d4-510ecc8114b9",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/45d189c2-51a7-4190-971d-6a9f864a5a32": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "main",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35984pr307LO67ajB.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35984pr307LO67ajB.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/45d189c2-51a7-4190-971d-6a9f864a5a32",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "main",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-35984pr307LO67ajB.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-35984pr307LO67ajB.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/main"
+				},
+				"status": "READY",
+				"latestOperation": "operations/45d189c2-51a7-4190-971d-6a9f864a5a32",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/6a4ba12e-89a7-430a-9c96-e565d35a9f78": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main"
+					}
+				}
+			}
+		},
+		"name": "operations/6a4ba12e-89a7-430a-9c96-e565d35a9f78",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/4a2f1948-e11d-4a35-bef5-0329e7696a0c": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "main",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-41456wmlvLNmj07bn.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-41456wmlvLNmj07bn.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/4a2f1948-e11d-4a35-bef5-0329e7696a0c",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "main",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-41456wmlvLNmj07bn.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-41456wmlvLNmj07bn.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/main"
+				},
+				"status": "READY",
+				"latestOperation": "operations/4a2f1948-e11d-4a35-bef5-0329e7696a0c",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/fe89b156-1698-4a9a-a937-1dede13f7685": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main"
+					}
+				}
+			}
+		},
+		"name": "operations/fe89b156-1698-4a9a-a937-1dede13f7685",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/41612723-c152-4af6-a65d-a5f9635f774e": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "main",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-417996T6ND9Ax1HCY.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-417996T6ND9Ax1HCY.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/41612723-c152-4af6-a65d-a5f9635f774e",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "main",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-417996T6ND9Ax1HCY.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-417996T6ND9Ax1HCY.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/main"
+				},
+				"status": "READY",
+				"latestOperation": "operations/41612723-c152-4af6-a65d-a5f9635f774e",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/77ffffc1-b619-4ec2-a00c-c36332fbae15": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main"
+					}
+				}
+			}
+		},
+		"name": "operations/77ffffc1-b619-4ec2-a00c-c36332fbae15",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/8156a6be-0078-4095-bfa9-033cc5ae06c4": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "main",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-45515RXgiC9KX5RIO.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-45515RXgiC9KX5RIO.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/8156a6be-0078-4095-bfa9-033cc5ae06c4",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "main",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-45515RXgiC9KX5RIO.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-45515RXgiC9KX5RIO.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/main"
+				},
+				"status": "READY",
+				"latestOperation": "operations/8156a6be-0078-4095-bfa9-033cc5ae06c4",
+				"availableMemoryMb": 8589
+			}
+		}
+	},
+	"operations/57ddafff-3c11-47a9-880e-888f511a1372": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.DeleteFunctionRequest",
+					"value": {
+						"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main"
+					}
+				}
+			}
+		},
+		"name": "operations/57ddafff-3c11-47a9-880e-888f511a1372",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.protobuf.Empty",
+			"value": {}
+		}
+	},
+	"operations/727c98e4-21ef-4ae6-a7b0-cedff55101bf": {
+		"done": true,
+		"metadata": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.OperationMetadataV1Beta2",
+			"value": {
+				"target": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"type": 1,
+				"request": {
+					"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CreateFunctionRequest",
+					"value": {
+						"location": "projects/fitamin-8e6e4/locations/us-central1",
+						"function": {
+							"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+							"timeout": {
+								"seconds": 540
+							},
+							"entryPoint": "main",
+							"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-49120YPfZ0Xvfbbb9.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+							"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-49120YPfZ0Xvfbbb9.zip",
+							"httpsTrigger": {}
+						}
+					}
+				}
+			}
+		},
+		"name": "operations/727c98e4-21ef-4ae6-a7b0-cedff55101bf",
+		"response": {
+			"typeUrl": "types.googleapis.com/google.cloud.functions.v1beta2.CloudFunction",
+			"value": {
+				"name": "projects/fitamin-8e6e4/locations/us-central1/functions/main",
+				"timeout": {
+					"seconds": 540
+				},
+				"entryPoint": "main",
+				"sourceUploadUrl": "http://localhost:5001/upload?archive=%2Fvar%2Ffolders%2Fn0%2F0c1bjh715nq7jxyzc8k5zgt00000gn%2FT%2Ftmp-49120YPfZ0Xvfbbb9.zip&localdir=%2FUsers%2Fbaevra%2FBackend%2Ffitamin%2Ffunctions",
+				"sourceArchiveUrl": "file:///var/folders/n0/0c1bjh715nq7jxyzc8k5zgt00000gn/T/tmp-49120YPfZ0Xvfbbb9.zip",
+				"httpsTrigger": {
+					"url": "http://localhost:5000/fitamin-8e6e4/us-central1/main"
+				},
+				"status": "READY",
+				"latestOperation": "operations/727c98e4-21ef-4ae6-a7b0-cedff55101bf",
+				"availableMemoryMb": 8589
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"host": "localhost",
+	"logFile": "/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs/cloud-functions-emulator.log",
+	"projectId": "fitamin-8e6e4",
+	"region": "us-central1",
+	"restPort": 5001,
+	"started": 1538716682343,
+	"storage": "configstore",
+	"supervisorPort": 5000,
+	"tail": true,
+	"useMocks": false,
+	"verbose": false,
+	"version": "1.0.0-beta.5",
+	"workers": {
+		"31676": "STARTED",
+		"32656": "STARTED",
+		"35522": "STARTED",
+		"41986": "STARTED",
+		"49135": "STARTED"
+	},
+	"lastKnownPid": 49120,
+	"stopped": 1538716911055
+}
