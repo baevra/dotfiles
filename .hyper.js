@@ -25,6 +25,7 @@ module.exports = {
         text-indent: 100%;
         white-space: nowrap;
         overflow: hidden;
+        color: transparent;
 
         position: inherit !important;
         display: inherit !important;
