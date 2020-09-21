@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     updateChannel: 'canary',
-    fontFamily: 'SF Mono, PT Mono, Dank Mono',
+    fontFamily: 'Dank Mono, SF Mono, PT Mono',
     fontWeight: 'normal',
     fontSize: 15,
     lineHeight: 1.4,
