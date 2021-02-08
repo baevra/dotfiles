@@ -3,6 +3,8 @@ set fish_greeting ""
 set LC_ALL en_US.UTF-8
 set LANG en_US.UTF-8
 
+set PATH $PATH:/opt/homebrew/bin
+
 # ALIAS
 alias commit="git add .; git commit"
 alias c="code ."
