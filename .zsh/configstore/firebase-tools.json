@@ -1,9 +1,19 @@
 {
-	"analytics-uuid": "c26cc7e8-0304-4bc1-8e3e-9610c93a5757",
 	"motd": {
-		"minVersion": "3.0.5"
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1612994939839
 	},
 	"motd.fetched": 1538642820355,
+	"activeProjects": {
+		"/Users/baevra/Backend/fitamin": "fitamin-8e6e4"
+	},
+	"analytics-uuid": "a9092066-e22a-422f-99a1-981d5b3fdda0",
 	"usage": true,
 	"user": {
 		"iss": "accounts.google.com",
@@ -12,13 +22,13 @@
 		"sub": "103018118081660231477",
 		"email": "baevra@gmail.com",
 		"email_verified": true,
-		"at_hash": "1feMXY3X024B8QWmqmdcOQ",
-		"iat": 1538642832,
-		"exp": 1538646432
+		"at_hash": "RTDkyvgNpOtcA2gRR_jcEg",
+		"iat": 1612995072,
+		"exp": 1612998672
 	},
 	"tokens": {
-		"expires_at": 1538717715550,
-		"refresh_token": "1/lBKesovzOzyYjJbr_kZi1hcdSwQBdGVtb_vYsEVszMCy9ywBC8LUSw7W3MeMybcT",
+		"expires_at": 1612998677062,
+		"refresh_token": "1//0cDcScM28461pCgYIARAAGAwSNwF-L9IroR9vsuxOvlZEFKsZsWDB49r_ezZXzPrNZ6ZEvtCm2B7UthWCmh-8gM_98jUmCmACRYM",
 		"scopes": [
 			"email",
 			"https://www.googleapis.com/auth/cloud-platform",
@@ -26,14 +36,10 @@
 			"https://www.googleapis.com/auth/firebase",
 			"openid"
 		],
-		"access_token": "ya29.GlwtBlV7NOXOYYnQ61ybdASPlQ5UGbxrUvx6HuBWzMd0QFw006ydKJueIJRueI5z6fDpBKbHha59WZn6-VmbTKtCbde2HPLdoVuqLkp9Jz7JM8UkqTIzUuNdo6fc8Q",
-		"expires_in": 3600,
-		"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email",
+		"access_token": "ya29.A0AfH6SMCNs_Rt1eJPSdicdQSWqM5vZ0xyDNum2pmd8hkFqYHY-IiVjPpTpKHCmb20m1697rkoQom6wnTJ5BQXOltuoq3tAUEK44Ca9EJarcQHz2Z7-mj_1BjdDQMdz_StqYJeZ78kLqWLovd5YRPES-vmY4EVRkzKKW-h",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase openid",
 		"token_type": "Bearer",
-		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY0MWZjMDUzZWY2OGExNDdkNmUwODQ1YWI2OWI5ZDYxYWE0YmM3ODkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAzMDE4MTE4MDgxNjYwMjMxNDc3IiwiZW1haWwiOiJiYWV2cmFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJyQXl5cWZldExKWXhWN0RzVjR3UzNRIiwiaWF0IjoxNTM4NzE0MTE1LCJleHAiOjE1Mzg3MTc3MTV9.oBPfLtMMM31JwlINo6snz9gLTEoAsrNap9busFQTNu3JqeZVjw_juC23AOlSB-JjfsmHv_yn__n7cPYVmrsbZ8oV3JmNXvxOE5LjMVX7Gmc113YZqM7AKDu9aoBo9k29o4dFJowcO2abG8i2KC5VAALUaLa9FN1nnmJ0wsKeX45X9kTGxvsKiWHawRVQT575XMc7cSSfI55G41TxMYID5PRTbHWmH9DQa7sNRXLQmv1IB2P--ORamJ8C1BU3ZahLkVyZY8hkx26Te9Ev6PnN-zsbLy1KQBSGNPMCycTcLWOdfyExBMgnfAy6AOhjjSa3JXTV5gyV6YN0ZBlY5SajEw"
-	},
-	"activeProjects": {
-		"/Users/baevra/Backend/fitamin": "fitamin-8e6e4"
-	},
-	"lastError": 1539759049328
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImZkMjg1ZWQ0ZmViY2IxYWVhZmU3ODA0NjJiYzU2OWQyMzhjNTA2ZDkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAzMDE4MTE4MDgxNjYwMjMxNDc3IiwiZW1haWwiOiJiYWV2cmFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJwV3VPTzRwQWJIZWd1R3ByeXF0TmF3IiwiaWF0IjoxNjEyOTk1MDc4LCJleHAiOjE2MTI5OTg2Nzh9.QoUHsNx9HE8Fdzop-LwaTqCdczdEkcXDTnw2sLsuZnkDl8zMpY9sbO48aZ_7OnfWskAh9r5ib0dVtvhAeyMTLxfkbKZawZY_PKsWBcnwlAmp7v09pw5vLxPdvk03jwW6a2GfNPENiLJvCSTdH0__5a4kj_RMJGhXnW3g04PK_GACcqL8x3c-S6se7mGn0QctTamxrrDL-anjJ_xnP3ZFXy4mjIvHio7oSDa92H0pQnq4xFZYdufYtfnlJBtWA9SoDev873iHVPa0v_h226o_VppnM5DDFCUsbW2sJeH05kqvgMvvLfKQvCioXOc4rDkmNmZB-qMIjUDr36HFdCBqMg"
+	}
 }
