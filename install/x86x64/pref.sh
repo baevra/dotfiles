@@ -1,91 +1,5 @@
 #!/usr/bin/env bash
 
-# ~/.macos — https://mths.be/macos
-# Modified by Baevra
-# Run without downloading:
-# curl https://raw.githubusercontent.com/baevra/dotfiles/master/.macos | bash
-
-# Close any open System Preferences panes, to prevent them from overriding
-# settings we’re about to change
-osascript -e 'tell application "System Preferences" to quit'
-
-# Ask for the administrator password upfront
-sudo -v
-
-# Keep-alive: update existing `sudo` time stamp until `.macos` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
-###############################################################################
-# Customizations                                                              #
-###############################################################################
-
-echo "Hello $(whoami)! Let's get you set up."
-
-echo "mkdir -p ${HOME}/Education"
-mkdir -p "${HOME}/Education"
-
-echo "mkdir -p ${HOME}/iOS"
-mkdir -p "${HOME}/iOS"
-
-echo "mkdir -p ${HOME}/Frontend"
-mkdir -p "${HOME}/Frontend"
-
-echo "mkdir -p ${HOME}/Backend"
-mkdir -p "${HOME}/Backend"
-
-echo "mkdir -p ${HOME}/Devops"
-mkdir -p "${HOME}/Devops"
-
-echo "mkdir -p ${HOME}/CLI"
-mkdir -p "${HOME}/CLI"
-
-echo "Installing homebrew"
-# install homebrew https://brew.sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-echo "brew installing stuff"
-# hub: a github-specific version of git
-# libdvdcss: makes handbreak capable of ripping DVDs
-# ripgrep: rg is faster than alternatives
-# imagemagick: eventually I will need this for something
-# ffmpeg: eventually I'll need this for something
-# tree: really handy for listing out directories in text
-# bat: A cat(1) clone with syntax highlighting and Git integration.
-brew install git watchman tree
-
-echo "installing node (via n-install)"
-curl -L https://git.io/n-install | bash
-
-echo "node --version: $(node --version)"
-echo "npm --version: $(npm --version)"
-
-echo "installing apps with brew cask"
-brew cask install \
-google-chrome firefox \
-visual-studio-code \
-fastlane \
-docker mongodb-compass \
-skype discord slack whatsapp \
-folx iina
-
-brew install \
-xcodegen ansible fish terminal-notifier
-
-echo "Generating an RSA token for GitHub"
-mkdir -p ~/.ssh
-touch ~/.ssh/config
-ssh-keygen -t rsa -b 4096 -C "baevra@gmail.com"
-echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_rsa" | tee ~/.ssh/config
-eval "$(ssh-agent -s)"
-echo "run 'pbcopy < ~/.ssh/id_rsa.pub' and paste that into GitHub"
-
-echo "cloning dotfiles"
-git clone https://github.com/baevra/dotfiles.git "${HOME}/dotfiles"
-ln -sf "${HOME}/dotfiles/.zsh" "${HOME}/.config"
-ln -sf "${HOME}/dotfiles/.gitignore_global" "${HOME}/.gitignore_global"
-ln -sf "${HOME}/dotfiles/.gitconfig" "${HOME}/.gitconfig"
-ln -sf "${HOME}/dotfiles/.hyper.js" "${HOME}/.hyper.js"
-
 echo "making system modifications:"
 
 ###############################################################################
@@ -675,4 +589,4 @@ for app in "Activity Monitor" \
   "iCal"; do
   killall "${app}" &> /dev/null
 done
-echo "Done. Note that some of these changes require a logout/restart to take effect."
+echo "Note that some of these changes require a logout/restart to take effect."
